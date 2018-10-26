@@ -293,6 +293,7 @@ OTZMQMessage Agent::backend_handler(const zmq::Message& message)
         case proto::RPCCOMMAND_GETSERVERCONTRACT:
         case proto::RPCCOMMAND_GETPENDINGPAYMENTS:
         case proto::RPCCOMMAND_GETCOMPATIBLEACCOUNTS:
+        case proto::RPCCOMMAND_GETWORKFLOW:
         case proto::RPCCOMMAND_ERROR:
         default: {
         }
